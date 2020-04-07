@@ -4,6 +4,9 @@ This repository contains files as Learning Resources in Wikiversity.
 ## Browse Files
 You can browse the files with at [https://niebert.github.io/spatial_modelling4wiki/](https://niebert.github.io/spatial_modelling4wiki).
 
+## Download all Files as ZIP
+You can download all [files in this repository as ZIP](https://github.com/niebert/spatial_modelling4wiki/archive/master.zip) with the URL: https://github.com/niebert/spatial_modelling4wiki/archive/master.zip
+
 ## scan_files.sh
 The Linux script `scan_files.sh` scans all subdirectories of the repository folder and collects all files and creates an `index.html`.
 
