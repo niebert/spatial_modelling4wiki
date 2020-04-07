@@ -1,5 +1,5 @@
 #!/bin/bash
-
+REPONAME="spatial_modelling4wiki"
 ROOT=./de
 DIR4LANGUAGE="de"
 HTTP="./"
@@ -14,7 +14,7 @@ echo "\n\t<BODY>" >> $OUTPUT
 echo "<H2>Wikiversity Files for Download</H2>" >> $OUTPUT
 echo "<H3>Last Update: ${NOW}</H3>" >> $OUTPUT
 echo "This file contains all additional files for learning resources in Wikiversity ${DOMAIN}." >> $OUTPUT
-echo "All <a href='https://www.github.com/niebert/wikiversity_files/' target='_blank'>wikiversity files can be <a href='https://github.com/niebert/wikiversity_files/archive/master.zip' target='_blank'>downloaded from GitHub as ZIP file</A>. Subfolder <tt>/de</tt> or <tt>/en</tt> denote the language of the learning resource." >> $OUTPUT
+echo "All <a href='https://www.github.com/niebert/${REPONAME}/' target='_blank'>wikiversity files can be <a href='https://github.com/niebert/${REPONAME}/archive/master.zip' target='_blank'>downloaded from GitHub as ZIP file</A>. Subfolder <tt>/de</tt> or <tt>/en</tt> denote the language of the learning resource." >> $OUTPUT
 echo "The name of the folder refers to the learning resources in Wikiversity e.g. <tt>Diffusion</tt> to ${DOMAIN}/wiki/Diffusion for a german learning resource in Wikiversity with the name Diffusion." >> $OUTPUT
 echo "Click on the folder displays the learning resources in Wikiversity for which the content was created (english/german)." >> $OUTPUT
 i=0
@@ -78,7 +78,7 @@ done
 echo "</UL>" >> $OUTPUT
 echo "<HR>" >> $OUTPUT
 echo "<CENTER>" >> $OUTPUT
-echo "    <a href=\"https://www.github.com/niebert/wikiversity_files\">Wikiversity Support Files on GitHub (${NOW})</a>" >> $OUTPUT
+echo "    <a href=\"https://www.github.com/niebert/${REPONAME}\">Wikiversity Support Files on GitHub (${NOW})</a>" >> $OUTPUT
 echo "</CENTER>" >> $OUTPUT
 echo "<HR>" >> $OUTPUT
 echo "</BODY>" >> $OUTPUT
